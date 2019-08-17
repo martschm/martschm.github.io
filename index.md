@@ -1,4 +1,4 @@
-# [Dipl.-Ing. Martin Schmidt](/pdf/20190808_CV_Martin_Schmidt.pdf)
+# [About Me](/about_me)
 
 ---
 
