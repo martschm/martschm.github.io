@@ -8,7 +8,9 @@ import googlemaps
 from itertools import permutations
 ```
 
-# request user input:
+Request user input. The user can choose whether she/he want's to optimize time or distance
+
+```python
 while True:
     to_optimize_nr = input("What do you want to optimize? Time (1) or Distance (2)? Input: ")
     try:
@@ -27,7 +29,9 @@ while True:
             break
     except ValueError:
         print("That's not a valid number! Please enter again.\n")
+```
 
+```
 # change working directory
 os.chdir('c:/users/schmi/desktop/martin/python/google_maps_trips')
 
