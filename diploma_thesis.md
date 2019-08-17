@@ -16,7 +16,7 @@ View the thesis [here](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/3559
 
 ## 3. Summary of the Main Results
 
-View the summary [here](/pdf/diploma_thesis_presentation.pdf)
+View the summary [here](/pdf/diploma_thesis_presentation.pdf).
 
 ---
 
