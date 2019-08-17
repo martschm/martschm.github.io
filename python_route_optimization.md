@@ -52,8 +52,8 @@ Here is an example of how the csv-file should be structured<br><br>
 <img src="images/python_route_optimization_sample_csv.png?raw=true"/>
 
 
-I create a table with all possible routes and exclude routes from "A" to "A" and from "A" to "starting point"
-```
+Exclude routes from "A" to "A" and from "A" to "starting point"
+```python
 locations = data.copy()
 locations["join"] = 1
 locations = pd.merge(locations, locations, how = "outer", on = "join")
@@ -67,7 +67,7 @@ n_pairs = locations.shape[0]
 
 I start with an empty list where I will store the walking distances in minutes.<br>
 I query google maps routes api with different starting and end points
-```
+```python
 result = []
 for entry in range(n_pairs):
     start = (locations["latitude_x"][entry],locations["longitude_x"][entry])
@@ -80,21 +80,20 @@ for entry in range(n_pairs):
     result.append(tmp)
 ```
     
-# add the walking distances in minutes to the original table
-locations["wert"] = result
+I add the walking distances in minutes to the original table and create all possible combinations of doing a tour
+```python
+locations["value"] = result
 
-# create all possible combinations of doing a tour
 visiting_locations = data[data["start"] == 0]["ort"].tolist()
 starting_location  = data[data["start"] == 1]["ort"].tolist()[0]
 shuffle_visiting_locations = list(permutations(visiting_locations, n_places -1))
 
-# create a list of all possible tours
 all_tours = []
 for tmp_tour in shuffle_visiting_locations:
     all_tours.append((starting_location,) + tmp_tour + (starting_location,))
 all_tours = pd.DataFrame(all_tours)
 n_tours = all_tours.shape[0]
-
+```
 
 dist_matrix = np.empty((n_tours,n_places))
 
@@ -103,7 +102,7 @@ for i in range(n_tours):
         start = all_tours[j][i]
         end   = all_tours[j+1][i]
         filter = (locations["ort_x"] == start) & (locations["ort_y"] == end)
-        dist_matrix[i][j] = locations[filter]["wert"]
+        dist_matrix[i][j] = locations[filter]["value"]
         
 all_tours["total"] = dist_matrix.sum(axis = 1)
 
