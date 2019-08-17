@@ -24,6 +24,10 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ### 1. Calculation of the Distribution Function
 
+
+<img src="images/R_calculation_distribution_function.png?raw=true"/>
+
+
 ```r
 helper.evalCopula=function(j,copula,margins) {
     valMargins=numeric(length(j))
