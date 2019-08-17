@@ -30,7 +30,7 @@ while True:
 os.chdir('c:/users/schmi/desktop/martin/python/google_maps_trips')
 
 # google cloud api key for goole maps (routes)
-google_cloud_api_key = "AIzaSyCg2K3TyP-4FDQm6hqQADDqxyK1P0BvVd0"
+google_cloud_api_key = "key"
 
 # locations (given in longitude and latitude)
 orte_orig = pd.read_csv("theresienfeld.csv", sep = ";")
