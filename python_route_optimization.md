@@ -1,63 +1,65 @@
+Import required packages
+
 ```python
-# import packages
 import os
 import numpy as np
 import pandas as pd
 import googlemaps
 from itertools import permutations
+```
 
 # request user input:
 while True:
-    to_optimize_nr = input("Was soll optimiert werden? Zeit (1) oder Distanz (2)? Eingabe: ")
+    to_optimize_nr = input("What do you want to optimize? Time (1) or Distance (2)? Input: ")
     try:
         if (int(to_optimize_nr) < 1) | (int(to_optimize_nr) > 2):
-            print("Das ist keine gültige Nummer! Bitte erneut eingeben.\n")
+            print("That's not a valid number! Please enter again.\n")
         else:
             to_optimize_nr = int(to_optimize_nr)
             if to_optimize_nr == 1:
                 to_optimize_char = "duration"
             else:
                 to_optimize_char = "distance"
-            print("Es wird folgendes optimiert: " + to_optimize_char)
+            print("The following will be optimized: " + to_optimize_char)
             print()
-            print("Bitte warten ...")
+            print("Please wait ...")
             print()
             break
     except ValueError:
-        print("Das ist keine gültige Nummer! Bitte erneut eingeben.\n")
+        print("That's not a valid number! Please enter again.\n")
 
 # change working directory
 os.chdir('c:/users/schmi/desktop/martin/python/google_maps_trips')
 
-# google cloud api key for goole maps (routes)
-google_cloud_api_key = "key"
+# Goole Maps Distance Matrix API key (routes)
+google_cloud_api_key = "your_api_key"
 
 # locations (given in longitude and latitude)
-orte_orig = pd.read_csv("theresienfeld.csv", sep = ";")
-n_orte = orte_orig.shape[0]
+data = pd.read_csv("locations.csv", sep = ";")
+n_places = data.shape[0]
 
 # goolge maps api connection
 gmaps = googlemaps.Client(key = google_cloud_api_key)
 
 # cartesian product of all locations
 # exclude routes from "a" to "a" and from "a" to "starting point"
-orte = orte_orig.copy()
-orte["join"] = 1
-orte = pd.merge(orte, orte, how = "outer", on = "join")
-filter = (orte["ort_x"] != orte["ort_y"])
-orte = orte[filter]
-del orte["join"]
-del orte["start_y"]
-orte.reset_index(inplace = True, drop = True)
-n_pairs = orte.shape[0]
+locations = data.copy()
+locations["join"] = 1
+locations = pd.merge(locations, locations, how = "outer", on = "join")
+filter = (locations["ort_x"] != locations["ort_y"])
+locations = locations[filter]
+del locations["join"]
+del locations["start_y"]
+locations.reset_index(inplace = True, drop = True)
+n_pairs = locations.shape[0]
 
 # start with empty list where we will store the walking distances in minutes
 result = []
 
 # query google maps routes api with different starting and end points
 for entry in range(n_pairs):
-    start = (orte["latitude_x"][entry],orte["longitude_x"][entry])
-    end   = (orte["latitude_y"][entry],orte["longitude_y"][entry])
+    start = (locations["latitude_x"][entry],locations["longitude_x"][entry])
+    end   = (locations["latitude_y"][entry],locations["longitude_y"][entry])
     tmp = gmaps.distance_matrix(start, end, mode='walking')["rows"][0]["elements"][0][to_optimize_char]["value"]
     if to_optimize_char == "duration":
         tmp = tmp/60
@@ -66,30 +68,29 @@ for entry in range(n_pairs):
     result.append(tmp)
     
 # add the walking distances in minutes to the original table
-orte["wert"] = result
+locations["wert"] = result
 
 # create all possible combinations of doing a tour
-visiting_locations = orte_orig[orte_orig["start"] == 0]["ort"].tolist()
-starting_location  = orte_orig[orte_orig["start"] == 1]["ort"].tolist()[0]
-shuffle_visiting_locations = list(permutations(visiting_locations, n_orte -1))
+visiting_locations = data[data["start"] == 0]["ort"].tolist()
+starting_location  = data[data["start"] == 1]["ort"].tolist()[0]
+shuffle_visiting_locations = list(permutations(visiting_locations, n_places -1))
 
 # create a list of all possible tours
 all_tours = []
 for tmp_tour in shuffle_visiting_locations:
     all_tours.append((starting_location,) + tmp_tour + (starting_location,))
-    #all_tours.append((starting_location,) + tmp_tour)
 all_tours = pd.DataFrame(all_tours)
 n_tours = all_tours.shape[0]
 
 
-dist_matrix = np.empty((n_tours,n_orte))
+dist_matrix = np.empty((n_tours,n_places))
 
 for i in range(n_tours):
-    for j in range(n_orte):
+    for j in range(n_places):
         start = all_tours[j][i]
         end   = all_tours[j+1][i]
-        filter = (orte["ort_x"] == start) & (orte["ort_y"] == end)
-        dist_matrix[i][j] = orte[filter]["wert"]
+        filter = (locations["ort_x"] == start) & (locations["ort_y"] == end)
+        dist_matrix[i][j] = locations[filter]["wert"]
         
 all_tours["total"] = dist_matrix.sum(axis = 1)
 
@@ -107,12 +108,12 @@ for i in range(max_range-1):
 if to_optimize_char == "distance":
     einheit = "meter"
 else:
-    einheit = "minuten"
+    einheit = "minutes"
 
 print()
 print("Total time/distance: ", final["total"][0], einheit)
 print()
-print("Anzahl verschiedener getesteter Routen: ", all_tours.shape[0])
+print("Number of different routes tested: ", all_tours.shape[0])
 print()
-print("Anzahl Anfragen an Google Maps Distance Api: ", n_pairs)
+print("Number of requests to Google Maps Distance API: ", n_pairs)
 ```
