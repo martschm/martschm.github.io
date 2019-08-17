@@ -26,7 +26,7 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ### Calculation of the Distribution Function
 
-```R
+```r
 f = function(x) {
   return(x+1)
 }
