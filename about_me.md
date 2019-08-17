@@ -12,7 +12,7 @@ Period of notice: 3 months (mid and end of month)
 
 ## Work Experience
 
-Credit Risk Manager at ING in Austria (July 2016 - Ongoing)
+Credit Risk Manager at [ING in Austria](https://ing.at) (July 2016 - Ongoing)
 
 - Development and validation of retail risk models and scorecards in SAS and Python using advanced statistical methods (close agile collaboration with advanced analytics colleagues from head office)
 - Execution of scenario-based simulations for various test & learn business experiments (e.g. Preapproved Loans and Early Collections customer segmentation)
