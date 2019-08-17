@@ -1,4 +1,4 @@
-# View My CV
+# My Curriculum Vitae
 
 [Dipl.-Ing. Martin Schmidt](/pdf/cv.pdf)
 
