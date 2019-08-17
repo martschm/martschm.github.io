@@ -61,3 +61,16 @@
 - **Python** (advanced)
 - **VBA** (advanced)
 - **C, C++** (basic)
+
+---
+
+## Languages
+- **German** (native language)
+- **English** (business fluent)
+
+---
+
+## Miscellaneous
+Winner of the [2nd DSI Data Science Hackathon](https://www.univie.ac.at/dsi-students/2nd-data-science-hackathon/)
+- 1st place in 'Data Insights'
+- 2nd place in 'Model Performance'
