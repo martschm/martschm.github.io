@@ -123,9 +123,9 @@ for i in range(max_range-1):
 Print final stats
 ```python
 if to_optimize_char == "distance":
-    einheit = "meter"
+    unit = "meter"
 else:
-    einheit = "minutes"
+    unit = "minutes"
 
 print("Total time/distance: ", final["total"][0], einheit)
 print("Number of different routes tested: ", all_tours.shape[0])
