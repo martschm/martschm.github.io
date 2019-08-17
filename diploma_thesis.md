@@ -304,5 +304,98 @@ S.lowerBound=function(d,n,quantiles,tolerance,N) {
 }
 ```
 
+<br><br>
+
+### 4.5. Calculation of Sharp Bounds on Value-at-Risk and Expected Shortfall
+
+<img src="images/R_calculation_bounds_var_es.png?raw=true"/>
+
+```r
+VaR.lowerBound=function(quantiles,tolerance,alpha,N,d) {
+    iterations=1e2
+    X=matrix(0,nrow=N,ncol=d)
+    for (j in 1:d) {
+        for (i in 1:N) {
+            X[i,j]=quantiles[[j]]((alpha*(i-1))/N)
+        }
+    }
+    X=apply(X,2,sample)
+    VaR_L=-Inf
+    for (i in 1:iterations) {
+        for (j in 1:d) {
+            rankBy=rowSums(X[,(1:d)[-j]])
+            X[,j]=sort(X[,j],decreasing=TRUE)[rank(rankBy)]
+        }
+        tmp=max(rowSums(X))
+        if (tmp>VaR_L) {
+            VaR_L=tmp
+        }
+    }
+    return(VaR_L)
+}
+
+VaR.upperBound=function(quantiles,tolerance,alpha,N,d) {
+    iterations=1e2
+    X=matrix(0,nrow=N,ncol=d)
+    for (j in 1:d) {
+        for (i in 1:N) {
+            X[i,j]=quantiles[[j]]((alpha)+((1-alpha)*i)/N)
+        }
+    }
+    X=apply(X,2,sample)
+    VaR_U=Inf
+    for (i in 1:iterations) {
+        for (j in 1:d) {
+            rankBy=rowSums(X[,(1:d)[-j]])
+            X[,j]=sort(X[,j],decreasing=TRUE)[rank(rankBy)]
+        }
+        tmp=min(rowSums(X))
+        if (tmp<VaR_U) {
+            VaR_U=tmp
+        }
+    }
+    return(VaR_U)
+}
+
+ES.lowerBound=function(quantiles,tolerance,alpha,N,d) {
+    iterations=1e2
+    X=matrix(0,nrow=N,ncol=d)
+    for (j in 1:d) {
+        for (i in 1:N) {
+            X[i,j]=quantiles[[j]]((i-1)/N)
+        }
+    }
+    X=apply(X,2,sample)
+    ES_L=-Inf
+    for (i in 1:iterations) {
+        for (j in 1:d) {
+            rankBy=rowSums(X[,(1:d)[-j]])
+            X[,j]=sort(X[,j],decreasing=TRUE)[rank(rankBy)]
+        }
+        Y=sort(rowSums(X))
+        tmp=sum(Y[(floor(N*alpha)+1):N])/(N*(1-alpha))
+        if (tmp>ES_L) {
+            ES_L=tmp
+        }
+    }
+    return(ES_L)
+}
+
+ES.upperBound=function(quantiles,alpha,N,d) {
+    helper.univariateES=function(qDist,N,alpha) {
+        X=matrix(0,nrow=N)
+        for (i in 1:N) {
+            X[i]=qDist(alpha+((1-alpha)*(i-1))/N)
+        }
+        return(sum(X)/N)
+    }
+    tmp=numeric(d)
+    for (j in 1:d) {
+        tmp[j]=helper.univariateES(quantiles[[j]],N,alpha)    
+    }
+    ES_U=sum(tmp)
+    return(ES_U)
+}
+```
 
 ---
