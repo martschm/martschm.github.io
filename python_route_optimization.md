@@ -50,10 +50,10 @@ n_places = data.shape[0]
 
 Here is an example of how the csv-file should be structured<br><br>
 <img src="images/python_route_optimization_sample_csv.png?raw=true"/>
- 	
+
+
+I create a table with all possible routes and exclude routes from "A" to "A" and from "A" to "starting point"
 ```
-# cartesian product of all locations
-# exclude routes from "a" to "a" and from "a" to "starting point"
 locations = data.copy()
 locations["join"] = 1
 locations = pd.merge(locations, locations, how = "outer", on = "join")
@@ -63,11 +63,12 @@ del locations["join"]
 del locations["start_y"]
 locations.reset_index(inplace = True, drop = True)
 n_pairs = locations.shape[0]
+```
 
-# start with empty list where we will store the walking distances in minutes
+I start with an empty list where I will store the walking distances in minutes.<br>
+I query google maps routes api with different starting and end points
+```
 result = []
-
-# query google maps routes api with different starting and end points
 for entry in range(n_pairs):
     start = (locations["latitude_x"][entry],locations["longitude_x"][entry])
     end   = (locations["latitude_y"][entry],locations["longitude_y"][entry])
@@ -77,6 +78,7 @@ for entry in range(n_pairs):
     else:
         tmp = tmp
     result.append(tmp)
+```
     
 # add the walking distances in minutes to the original table
 locations["wert"] = result
