@@ -25,4 +25,9 @@
 #### [Route Optimization (brute force method)](/python_route_optimization)
 - The program gets as input a csv-file with locations (longitude and latitude) and calculates the best route (based on time/distance) starting from a specified location using Google's Distance Matrix API
 
+#### Kaggle
+- in progress
+
+#### edX Micromasters Data Science
+- in progress
 ---
