@@ -1,9 +1,5 @@
 # [About Me](/about_me)
 
----
-
-<br><br>
-
 # My Portfolio
 
 ---
