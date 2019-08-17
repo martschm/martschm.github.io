@@ -41,7 +41,23 @@
 
 ## Professional Training
 
-### Financial Risk Management
+#### > Financial Risk Management
 - Development of PD and LGD/EAD models ([Risk Research](https://www.risk-research.de/de/startseite))
 - Building better Scorecards ([ScorePlus](https://www.scoreplus.de/))
 -  [PRM](https://prmia.org/) Certification (ongoing, started in July 2019)
+
+#### > Programming and Data Science
+- Programming in C/C++/Matlab/R/VBA ([Vienna University of Technology](https://www.tuwien.at/))
+- SAS E-Learnings (SAS Programming 1-3, SAS Macro Language 1-2, Predictive Modelling, SQL)
+- Machine Learning Methods and Data Analytics in Risk and Insurance ([Vienna University of Technology](https://www.tuwien.at/))
+- [edX Micromaster in Data Science](https://www.edx.org/micromasters/data-science) (ongoing, started in July 2019)
+
+---
+
+## Programming Skills
+- SAS Base (5/5)
+- SQL (5/5)
+- R (4/5)
+- Python (4/5)
+- VBA (3/5)
+- C, C++ (2/5)
