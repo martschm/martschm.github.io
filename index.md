@@ -17,6 +17,7 @@
 
 ## Python
 
-- **[Route Optimization (brute force method)](/diploma_thesis)**
+#### [Route Optimization (brute force method)](/diploma_thesis)
+- The program gets as input a csv-file with locations (longitude and latitude) and calculates the best route (based on time/distance) querying Google Maps API
 
 ---
