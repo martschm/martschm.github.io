@@ -72,6 +72,8 @@ S.distribution=function(d,n,copula,margins) {
 }
 ```
 
+<br><br>
+
 ### 2. Recursion for the Calculation of the Probability Mass Function of the Aggregate Loss S
 
 <img src="images/R_calculation_probability_mass_function_recursion.png?raw=true"/>
