@@ -28,7 +28,7 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf).
 
 - Probability Mass Function of the sum S of three Poisson-distributed random variables under different dependency scenarios (using Gaussian Copulas).
 
-<img src="images/sum_poisson_variables_pmf.png?raw=true"/>
+<img src="images/sum_poisson_variables_pmf.png?raw=true"/> 
 
 ---
 
