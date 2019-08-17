@@ -1,6 +1,4 @@
-# My Curriculum Vitae
-
-[Dipl.-Ing. Martin Schmidt](/pdf/20190808_CV_Martin_Schmidt.pdf)
+# [Dipl.-Ing. Martin Schmidt](/pdf/20190808_CV_Martin_Schmidt.pdf)
 
 ---
 
