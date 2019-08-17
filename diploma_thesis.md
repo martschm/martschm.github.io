@@ -20,6 +20,12 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ---
 
+## Some numerical results
+
+Text/Bilder hier
+
+---
+
 ## 5. R-Code
 
 In this section I provide different R codes for calculation of the numerical results presented in the diploma thesis.
@@ -28,8 +34,6 @@ In this section I provide different R codes for calculation of the numerical res
 - 5.3. Calculation of the Probability Mass Function of the Aggregate Loss S by Integration over Copula Densities
 - 5.4. Rearrangement Algorithm for the Calculation of Sharp Bounds on the Distribution of the Aggregate Loss S
 - 5.5. Calculation of Sharp Bounds on Value-at-Risk and Expected Shortfall
-
-<br><br>
 
 ### 5.1. Calculation of the Distribution Function of the Aggregate Loss S
 
