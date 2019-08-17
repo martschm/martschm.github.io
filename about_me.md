@@ -2,7 +2,7 @@
 
 ---
 
-**View My CV** [here](/pdf/20190808_CV_Martin_Schmidt.pdf).
+**View My CV [here](/pdf/20190808_CV_Martin_Schmidt.pdf).**
 
 ---
 
