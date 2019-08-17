@@ -24,7 +24,7 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ### 1. Calculation of the Distribution Function
 
-$`\sqrt{2}`$
+`$\sqrt{2}$`
 
 ```r
 f = function(x) {
