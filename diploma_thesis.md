@@ -10,13 +10,13 @@ In this diploma thesis we investigate a portfolio of d integer-valued risks and 
 
 ## Full Text
 
-Download the thesis [here](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/3559554?originalFilename=true).
+View the thesis [here](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/3559554?originalFilename=true).
 
 ---
 
 ## Summary of the Main Results
 
-View presentation [here]
+View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ---
 
