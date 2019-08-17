@@ -2,6 +2,10 @@
 
 ---
 
+View my CV [here](/pdf/20190808_CV_Martin_Schmidt.pdf).
+
+<br><br>
+
 ## Personal Overview
 
 - Date of birth: December 31, 1992
