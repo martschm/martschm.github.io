@@ -48,7 +48,7 @@ data = pd.read_csv("locations.csv", sep = ";")
 n_places = data.shape[0]
 ```
 
-Here is an example of how the csv-file should be structured
+Here is an example of how the csv-file should be structured<br>
 <img src="images/python_route_optimization_sample_csv.png?raw=true"/>
  	
 ```
