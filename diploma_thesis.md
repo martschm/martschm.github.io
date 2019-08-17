@@ -22,9 +22,7 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ## R-Code
 
----
-
-### Calculation of the Distribution Function
+### 1. Calculation of the Distribution Function
 
 ```r
 f = function(x) {
