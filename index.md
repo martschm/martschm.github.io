@@ -4,6 +4,9 @@
 
 ## Diploma Thesis 
 
+[Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/3559554?originalFilename=true)
+
+
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
