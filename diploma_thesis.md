@@ -228,4 +228,80 @@ S.probabilityMassFunctionIntegration=function(d,n,copulaDensity,margins,support)
 }
 ```
 
+<br><br>
+
+### 4.4. Rearrangement Algorithm for the Calculation of Sharp Bounds on the Distribution of the Aggregate Loss S
+
+<img src="images/R_calculation_bounds_distribution_RA.png?raw=true"/>
+
+```r
+helper.rearrangeMatrix=function(d,M,tolerance,func) {
+    M=apply(M,2,sample)
+    absDiff=Inf
+    result=Inf
+    while(absDiff>tolerance) {
+        tmp=result
+        for (j in 1:d) {
+            rankBy=rowSums(M[,(1:d)[-j]])
+            M[,j]=sort(M[,j],decreasing=TRUE)[rank(rankBy)]
+        }
+        result=func(rowSums(M))
+        absDiff=abs(result-tmp)
+    }
+    return(result)
+}
+
+S.upperBound=function(d,n,quantiles,tolerance,N) {
+    left=0
+    right=1
+    repeat {
+        result=(left+right)/2
+        X=matrix(ncol=d,nrow=N)
+        for (i in 1:N) {
+            for (j in 1:d) {
+                X[i,j]=quantiles[[j]](result*(i-1)/N)
+            }
+        }
+        nApprox=helper.rearrangeMatrix(d,X,tolerance,max)
+        if (abs(n+1-nApprox)<tolerance||abs(left-right)<tolerance) {
+            break
+        }
+        if (nApprox>n+1) {
+            left=result*2-right
+            right=result
+        } else {
+            right=result*2-left
+            left=result
+        }
+    }
+    return(result)
+}
+
+S.lowerBound=function(d,n,quantiles,tolerance,N) {
+    left=0
+    right=1
+    repeat {
+        result=(left+right)/2
+        X = matrix(ncol=d,nrow=N)
+        for (i in 1:N) {
+            for (j in 1:d) {
+                X[i,j]=quantiles[[j]](result+(1-result)*(i-1)/N)
+            }
+        }
+        nApprox=helper.rearrangeMatrix(d,X,tolerance,min)
+        if (abs(n+1-nApprox)<tolerance||abs(left-right)<tolerance) {
+            break
+        }
+        if (nApprox<n+1) {
+            right=result*2-left
+            left=result
+        } else {
+            left=result*2-right
+            right=result
+        }
+    }
+    return(result)
+}
+```
+
 ---
