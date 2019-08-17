@@ -4,9 +4,9 @@
 
 ## Personal Overview
 
-Date of birth: December 31, 1992
-Nationality: Austria
-Period of notice: 3 months (mid and end of month)
+- Date of birth: December 31, 1992
+- Nationality: Austria
+- Period of notice: 3 months (mid and end of month)
 
 ---
 
