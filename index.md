@@ -6,12 +6,12 @@
 
 ---
 
-## Diploma Thesis (including R-Code)
+## Diploma Thesis
 
 ### Financial and Actuarial Mathematics
 #### Vienna University of Technology
 
-[Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis)
+[Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis) (including R-Code)
 
 ---
 
