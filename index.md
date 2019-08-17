@@ -15,6 +15,9 @@
 
 ---
 
+<br>
+
+---
 ## Python
 
 #### [Route Optimization (brute force method)](/diploma_thesis)
