@@ -20,7 +20,7 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf).
 
 ---
 
-## 4. Some numerical results
+## 4. Some Numerical Results
 
 - Distribution Function of the sum S of three Poisson-distributed random variables under different dependency scenarios (using Gaussian Copulas).
 
