@@ -24,16 +24,50 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ### 1. Calculation of the Distribution Function
 
-```math
-SE = $\frac{\sigma}{\sqrt{n}}$
-```
-
 ```r
-f = function(x) {
-  return(x+1)
+helper.evalCopula=function(j,copula,margins) {
+    valMargins=numeric(length(j))
+    for (i in 1:length(valMargins)) {
+        valMargins[i]=margins[[i]](j[i])
+    }
+    return(copula(valMargins))
 }
 
-y = f(3)
+helper.setNextCombination=function(j,target) {
+    for (i in 1:length(j)) {
+        j[i]=j[i]+1
+        if (j[i]<=target&&sum(j)<=target) {
+            break
+        } else {
+            j[i]=0
+        }
+    }
+    return(j)
+}
+
+S.distribution=function(d,n,copula,margins) {
+    if (n<0) {
+        return(0)
+    }
+    n=floor(n)
+    j=numeric(d)
+    result=0
+    for (k in 0:min(d-1,n)) {
+        j=numeric(d)
+        if (sum(j)==n-k) {
+            result=result+((-1)^k)*choose(d-1,k)*helper.evalCopula(j,copula,margins)           
+        }
+        repeat {
+            j=helper.setNextCombination(j,n-k)
+            if (sum(j)==0) {
+                break
+            } else if (sum(j)==n-k) {
+                result=result+((-1)^k)*choose(d-1,k)*helper.evalCopula(j,copula,margins)
+            }
+        }
+    }
+    return(result)
+}
 ```
 
 ---
