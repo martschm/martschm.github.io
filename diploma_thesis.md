@@ -2,27 +2,27 @@
 
 ---
 
-## Abstract
+## 1. Abstract
 
 In this diploma thesis we investigate a portfolio of d integer-valued risks and calculate the distribution of the aggregate loss S, which is the sum of these. To generalize the popular assumption of independence used in practice, we model the dependency structure of the individual risks using copulas, allowing for a wide range of flexibility. After a rather detailed introduction to copula theory, the main part of this thesis starts with a formula for the distribution function of S. In addition, a recursion formula for the probability mass function of S is provided. Bounds on the distribution of S determined by the Rearrangement Algorithm serve to quantify the model risk caused by feasible scenarios of dependency. To illustrate the theoretical considerations, the final chapter contains a multitude of numerical examples in which, besides the distribution and probability mass function, common risk measures such as Value-at-Risk and Expected Shortfall for S are calculated under various dependency structures.
 
 ---
 
-## Full Text
+## 2. Full Text
 
 View the thesis [here](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/3559554?originalFilename=true).
 
 ---
 
-## Summary of the Main Results
+## 3. Summary of the Main Results
 
 View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ---
 
-## R-Code
+## 4. R-Code
 
-### 1. Calculation of the Distribution Function of the Aggregate Loss S
+### 4.1. Calculation of the Distribution Function of the Aggregate Loss S
 
 <img src="images/R_calculation_distribution_function.png?raw=true"/>
 
@@ -74,7 +74,7 @@ S.distribution=function(d,n,copula,margins) {
 
 <br><br>
 
-### 2. Recursion for the Calculation of the Probability Mass Function of the Aggregate Loss S
+### 4.2. Recursion for the Calculation of the Probability Mass Function of the Aggregate Loss S
 
 <img src="images/R_calculation_probability_mass_function_recursion.png?raw=true"/>
 
@@ -162,6 +162,69 @@ S.probabilityMassFunctionRecursion=function(d,n,copula,margins,support,combinati
             return(result)
         }
     }
+}
+```
+
+<br><br>
+
+### 4.3. Calculation of the Probability Mass Function of the Aggregate Loss S by Integration over Copula Densities
+
+<img src="images/R_calculation_probability_mass_function_integration.png?raw=true"/>
+
+```r
+library("cubature")
+
+helper.setNextIndex=function(ind,maxValues) {
+    for (i in 1:length(ind)) {
+        ind[i]=ind[i]+1
+        if (ind[i]<=maxValues[i]) {
+            break
+        } else {
+            ind[i]=1
+        }
+    }
+    return(ind)
+}
+
+helper.calcCombinations=function(d,n,support) {
+    j=numeric(d)
+    ind=rep(1,d)
+    number=1
+    maxValues=numeric(d)
+    combinations=list()
+    for (i in 1:d) {
+        maxValues[i]=length(support[[i]])
+    }
+    repeat {
+        for (i in 1:d) {
+            j[i]=support[[i]][ind[i]]
+        }
+        if (sum(j)==n) {
+            combinations[[number]]=j
+            number=number+1
+        }
+        ind=helper.setNextIndex(ind,maxValues)
+        if (sum(ind)==d) {
+            break
+        }
+    }
+    return(combinations)
+}
+
+S.probabilityMassFunctionIntegration=function(d,n,copulaDensity,margins,support) {
+    J=helper.calcCombinations(d,n,support)
+    result=0
+    for (j in J) {
+        limUpper=NULL
+        limLower=NULL
+        for (i in 1:length(j)) {
+            limUpper[i]=margins[[i]](j[i])
+            limLower[i]=margins[[i]](j[i]-1)
+        }
+        int=adaptIntegrate(copulaDensity,lowerLimit=limLower,upperLimit=limUpper)
+        result=result+int$integral
+    }
+    return(result)
 }
 ```
 
