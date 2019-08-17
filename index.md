@@ -1,3 +1,9 @@
+# View My CV
+
+[Dipl.-Ing. Martin Schmidt](/pdf/cv.pdf)
+
+---
+
 # My Portfolio
 
 ---
