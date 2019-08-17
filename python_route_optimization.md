@@ -94,7 +94,8 @@ for tmp_tour in shuffle_visiting_locations:
 all_tours = pd.DataFrame(all_tours)
 n_tours = all_tours.shape[0]
 ```
-
+Create a matrix with time/distances of all possible tours und select the tour which minimizes time/distance
+```python
 dist_matrix = np.empty((n_tours,n_places))
 
 for i in range(n_tours):
@@ -112,11 +113,15 @@ filter = (all_tours["total"] == min_time)
 
 final = all_tours[filter]
 final.reset_index(inplace = True, drop = True)
-
+```
+Print the best route to the console
+```python
 max_range = final.shape[1]
 for i in range(max_range-1):
     print(i+1,  "--->", final[i][0])
-    
+```
+Print final stats
+```python
 if to_optimize_char == "distance":
     einheit = "meter"
 else:
