@@ -6,7 +6,7 @@
 
 [Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/Diploma_Thesis)
 
-
+---
 
 
 
