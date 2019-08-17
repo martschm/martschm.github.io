@@ -26,6 +26,15 @@ Credit Risk Manager at [ING in Austria](https://ing.at) (July 2016 - Ongoing)
 
 ---
 
+## Academic Education
+
+MSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (March 2016 - March 2019)
+
+- Passed with distinction
+- Diploma Thesis: Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure (nominated for the AVÖ-price in 2020)
+
+---
+
 ## 2. Full Text
 
 View the thesis [here](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/3559554?originalFilename=true).
