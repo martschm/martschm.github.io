@@ -25,7 +25,7 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 ### 1. Calculation of the Distribution Function
 
 ```math
-SE = \frac{\sigma}{\sqrt{n}}
+SE = $\frac{\sigma}{\sqrt{n}}$
 ```
 
 ```r
