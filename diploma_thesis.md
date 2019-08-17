@@ -1,3 +1,7 @@
+# Diploma Thesis
+
+<br><br>
+
 # Aggregation of Integer-Valued Risks with Copula-Induced Dependency Structure
 
 ---
