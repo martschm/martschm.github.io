@@ -32,23 +32,21 @@ while True:
 ```
 
 Change working directory to where the csv-file with locations is located
-```
+```python
 os.chdir('your_working_directory_here')
 ```
 
-Enter your Goole Maps Distance Matrix API key here
-```
+Google Maps Distance Matrix API connection
+```python
 google_cloud_api_key = "your_api_key"
+gmaps = googlemaps.Client(key = google_cloud_api_key)
 ```
 
 Read in the data: locations (given in longitude and latitude)
-```
+```python
 data = pd.read_csv("locations.csv", sep = ";")
 n_places = data.shape[0]
 ```
-
-# goolge maps api connection
-gmaps = googlemaps.Client(key = google_cloud_api_key)
 
 # cartesian product of all locations
 # exclude routes from "a" to "a" and from "a" to "starting point"
