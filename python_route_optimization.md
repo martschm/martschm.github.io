@@ -31,16 +31,21 @@ while True:
         print("That's not a valid number! Please enter again.\n")
 ```
 
+Change working directory to where the csv-file with locations is located
 ```
-# change working directory
-os.chdir('c:/users/schmi/desktop/martin/python/google_maps_trips')
+os.chdir('your_working_directory_here')
+```
 
-# Goole Maps Distance Matrix API key (routes)
+Enter your Goole Maps Distance Matrix API key here
+```
 google_cloud_api_key = "your_api_key"
+```
 
-# locations (given in longitude and latitude)
+Read in the data: locations (given in longitude and latitude)
+```
 data = pd.read_csv("locations.csv", sep = ";")
 n_places = data.shape[0]
+```
 
 # goolge maps api connection
 gmaps = googlemaps.Client(key = google_cloud_api_key)
