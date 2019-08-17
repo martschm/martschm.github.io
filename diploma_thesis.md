@@ -24,7 +24,9 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ### 1. Calculation of the Distribution Function
 
-`$\sqrt{2}$`
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
 
 ```r
 f = function(x) {
