@@ -55,9 +55,9 @@
 ---
 
 ## Programming Skills
-- SAS Base (5/5)
-- SQL (5/5)
-- R (4/5)
-- Python (4/5)
-- VBA (3/5)
-- C, C++ (2/5)
+- SAS Base (expert)
+- SQL (expert)
+- R (advanced)
+- Python (advanced)
+- VBA (advanced)
+- C, C++ (basic)
