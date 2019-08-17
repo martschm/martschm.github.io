@@ -2,6 +2,8 @@
 
 # Route optimization 
 
+<br>
+
 ### Purpose
 
 The program gets as input a csv-file with locations (longitude and latitude) and calculates the best route (based on time/distance) starting from a specified location using Google’s Distance Matrix API
