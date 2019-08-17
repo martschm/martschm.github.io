@@ -127,10 +127,7 @@ if to_optimize_char == "distance":
 else:
     einheit = "minutes"
 
-print()
 print("Total time/distance: ", final["total"][0], einheit)
-print()
 print("Number of different routes tested: ", all_tours.shape[0])
-print()
 print("Number of requests to Google Maps Distance API: ", n_pairs)
 ```
