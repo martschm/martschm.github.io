@@ -2,9 +2,10 @@
 
 ---
 
-## Diploma Thesis (Vienna University of Technology)
+## Diploma Thesis
 
 ### Financial and Actuarial Mathematics
+#### (Vienna University of Technology)
 
 [Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/Diploma_Thesis)
 
