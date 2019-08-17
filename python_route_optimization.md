@@ -49,8 +49,9 @@ n_places = data.shape[0]
 ```
 
 Here is an example of how the csv-file should be structured
- 	python_route_optimization_sample_csv.png
-
+<img src="images/python_route_optimization_sample_csv.png?raw=true"/>
+ 	
+```
 # cartesian product of all locations
 # exclude routes from "a" to "a" and from "a" to "starting point"
 locations = data.copy()
