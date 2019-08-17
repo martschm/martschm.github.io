@@ -20,9 +20,18 @@ View the summary [here](/pdf/diploma_thesis_presentation.pdf)
 
 ---
 
-## 4. R-Code
+## 5. R-Code
 
-### 4.1. Calculation of the Distribution Function of the Aggregate Loss S
+In this section I provide different R codes for calculation of the numerical results presented in the diploma thesis.
+- 5.1. Calculation of the Distribution Function of the Aggregate Loss S
+- 5.2. Recursion for the Calculation of the Probability Mass Function of the Aggregate Loss S
+- 5.3. Calculation of the Probability Mass Function of the Aggregate Loss S by Integration over Copula Densities
+- 5.4. Rearrangement Algorithm for the Calculation of Sharp Bounds on the Distribution of the Aggregate Loss S
+- 5.5. Calculation of Sharp Bounds on Value-at-Risk and Expected Shortfall
+
+<br><br>
+
+### 5.1. Calculation of the Distribution Function of the Aggregate Loss S
 
 <img src="images/R_calculation_distribution_function.png?raw=true"/>
 
@@ -74,7 +83,7 @@ S.distribution=function(d,n,copula,margins) {
 
 <br><br>
 
-### 4.2. Recursion for the Calculation of the Probability Mass Function of the Aggregate Loss S
+### 5.2. Recursion for the Calculation of the Probability Mass Function of the Aggregate Loss S
 
 <img src="images/R_calculation_probability_mass_function_recursion.png?raw=true"/>
 
@@ -167,7 +176,7 @@ S.probabilityMassFunctionRecursion=function(d,n,copula,margins,support,combinati
 
 <br><br>
 
-### 4.3. Calculation of the Probability Mass Function of the Aggregate Loss S by Integration over Copula Densities
+### 5.3. Calculation of the Probability Mass Function of the Aggregate Loss S by Integration over Copula Densities
 
 <img src="images/R_calculation_probability_mass_function_integration.png?raw=true"/>
 
@@ -230,7 +239,7 @@ S.probabilityMassFunctionIntegration=function(d,n,copulaDensity,margins,support)
 
 <br><br>
 
-### 4.4. Rearrangement Algorithm for the Calculation of Sharp Bounds on the Distribution of the Aggregate Loss S
+### 5.4. Rearrangement Algorithm for the Calculation of Sharp Bounds on the Distribution of the Aggregate Loss S
 
 <img src="images/R_calculation_bounds_distribution_RA.png?raw=true"/>
 
@@ -306,7 +315,7 @@ S.lowerBound=function(d,n,quantiles,tolerance,N) {
 
 <br><br>
 
-### 4.5. Calculation of Sharp Bounds on Value-at-Risk and Expected Shortfall
+### 5.5. Calculation of Sharp Bounds on Value-at-Risk and Expected Shortfall
 
 <img src="images/R_calculation_bounds_var_es.png?raw=true"/>
 
