@@ -12,21 +12,34 @@
 
 ## Personal Overview
 
-- Date of birth: December 31, 1992
+- Date of birth: December 31, 1992 (27 years)
 - Nationality: Austria
+- Marital status: married
+- Military service: completed
 - Period of notice: 3 months (mid and end of month)
 
 ---
 
 ## Work Experience
 
-**> Credit Risk Manager at [ING in Austria](https://ing.at)** (July 2016 - Ongoing)
+**> Credit Risk Manager at [ING in Austria](https://ing.at)** (July 2016 - ongoing)
 
-- Development and validation of retail risk models and scorecards in SAS and Python using advanced statistical methods (close agile collaboration with advanced analytics colleagues from head office)
-- Execution of scenario-based simulations for various test & learn business experiments (e.g. Preapproved Loans and Early Collections customer segmentation)
-- Led the development of automated reporting from internal databases in the financial and non-financial risk area via SAS/SQL and VBA from scratch
-- Backtesting of external rating models (CRIF, KSV, Credify.AT)
-- Member of the local Credit Risk Committee
+- Developed a retail credit acceptance model and a loan scorecard
+in Python using machine learning and traditional statistical
+methods (XGBoost, Random Forest, Logistic Regression).
+Agile collaboration with colleagues from Advanced
+Analytics and Model Validation from the ING Head Oce
+- Backtesting of external credit bureau models (CRIF, KSV)
+- Led the development of automated reporting from internal
+databases in the financial and non-financial risk area from
+scratch using SAS, SQL and VBA
+- Responsible for implementation of regulatory reporting requirements
+(e.g. New Definition of Default, IFRS 9) in SAS
+- Member of the local Credit Risk Committee presenting to
+the management board
+- Analysed fraudulent loan applications using network analysis
+in Python and implemented a SAS-tool to support operations
+in detection of future cases
 
 ---
 
