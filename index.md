@@ -1,6 +1,10 @@
 # [About Me](/about_me)
 
-<br>
+<br><br>
+
+# [LinkedIn Profile](https://www.linkedin.com/in/martschm/)
+
+<br><br>
 
 # My Portfolio
 
