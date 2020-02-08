@@ -31,3 +31,6 @@ The program gets as input a csv-file with locations (longitude and latitude) and
 Under construction ...
 
 ---
+
+
+[Test](customer_relationships.ipynb)
