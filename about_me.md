@@ -5,11 +5,11 @@
 
 ## Personal Overview
 
-- Date of birth: December 31, 1992 (27 years)
-- Nationality: Austria
-- Marital status: married
-- Military service: completed
-- Period of notice: 3 months (mid and end of month)
+- **Date of birth:** December 31, 1992 (27 years)
+- **Nationality:** Austria
+- **Marital status:** married
+- **Military service:** completed
+- **Period of notice:** 3 months (mid and end of month)
 
 ---
 
