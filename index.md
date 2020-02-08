@@ -10,11 +10,11 @@
 
 ---
 
-## Diploma Thesis
+## [Diploma Thesis](/diploma_thesis)
 
 ### Financial and Actuarial Mathematics
 
-[Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis) (including R-Code)
+Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure (including R-Code)
 
 ---
 
