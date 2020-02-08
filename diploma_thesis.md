@@ -12,11 +12,11 @@ In this diploma thesis we investigate a portfolio of d integer-valued risks and 
 
 ---
 
-## 2. Full Text and Graduation
+## 2. Full Text and Evaluation
 
 View the thesis [here](https://repositum.tuwien.ac.at/obvutwhs/download/pdf/3559554?originalFilename=true).
 <br><br>
-View the graduation [here](/pdf/Diploma_Thesis_Assessment_Martin_Schmidt.pdf).
+View the evaluation [here](/pdf/Diploma_Thesis_Assessment_Martin_Schmidt.pdf).
 
 ---
 
