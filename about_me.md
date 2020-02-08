@@ -40,7 +40,7 @@ in detection of future cases
 
 #### > MSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (March 2016 - March 2019)
 
-- Graduation with highest distinction (view certificate [here](/pdf/Studies_Certificate_Martin_Schmidt (German only).pdf))
+- Graduation with highest distinction (view certificate [here](/pdf/Studies_Certificate_Martin_Schmidt.pdf))
 - Diploma Thesis: [Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis) (nominated for the [AVÖ-price](http://avoe.at/wp-content/uploads/2014/09/AVOe_Foerderung_Abschlussarbeiten_2016.pdf) in 2020)
 
 #### > BSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (October 2012 - March 2016)
