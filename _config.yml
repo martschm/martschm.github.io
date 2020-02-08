@@ -1,4 +1,4 @@
-title: Martin Schmidt
+title: Dipl.-Ing. Martin Schmidt
 logo: "/images/Picture_Coding.jpg?raw=true"
 description: >
   <br><br>
@@ -7,9 +7,5 @@ description: >
   an international banking group in Austria for almost 4 years. I have excellent programming and database 
   (Python, R, SAS, SQL) as well as statistical/mathematical skills and gained hands-on machine learning 
   experience during various Data Science Hackathons (most recent: winner of the Coding Challenge on Risk Management 
-  hosted by the European Central Bank).
-  <br><br>
-  <a href="https://www.linkedin.com/in/martschm/">View My LinkedIn Profile</a>
-  <br><br>
-  <a href="https://www.kaggle.com/martschm">View My Kaggle Profile</a>
+  hosted by the European Central Bank)
 theme: jekyll-theme-hacker
