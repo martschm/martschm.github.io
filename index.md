@@ -4,7 +4,7 @@
 
 # [About Me](/about_me)
 
-<br><hr>
+<br>
 
 # My Portfolio
 
