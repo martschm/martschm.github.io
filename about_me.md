@@ -1,5 +1,5 @@
 
-**View My CV [here](/pdf/20200208_CV_Martin_Schmidt_English.pdf).**
+# View My CV [here](/pdf/20200208_CV_Martin_Schmidt_English.pdf)
 
 ---
 
