@@ -28,7 +28,7 @@
 in Python using machine learning and traditional statistical
 methods (XGBoost, Random Forest, Logistic Regression).
 Agile collaboration with colleagues from Advanced
-Analytics and Model Validation from the ING Head Oce
+Analytics and Model Validation from the ING Head Office
 - Backtesting of external credit bureau models (CRIF, KSV)
 - Led the development of automated reporting from internal
 databases in the financial and non-financial risk area from
