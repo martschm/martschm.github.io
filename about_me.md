@@ -4,13 +4,11 @@
 
 # Dipl.-Ing. Martin Schmidt
 
-<br>
 ---
 
 **View My CV [here](/pdf/20200208_CV_Martin_Schmidt_English.pdf).**
 
 ---
-<br>
 
 ## Personal Overview
 
