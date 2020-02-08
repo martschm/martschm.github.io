@@ -61,16 +61,15 @@ in detection of future cases
 Part of a small international team (’EUreka!’) working on (dynamic) web-scraping of various news websites and unsupervised machine learning for Natural Language Processing (clustering of similar articles using Latent Dirichlet Allocation)
 
 #### > May 2019: Winner of the [2nd DSI Data Science Hackathon](https://www.univie.ac.at/dsi-students/2nd-data-science-hackathon/) (hosted by BAWAG Group AG)
+The goal of this hackathon was to predict age and place of residence of customers from transaction data (ATM withdrawals)
 - 1st place in 'Data Insights'
 - 2nd place in 'Model Performance'
-<br>
-The goal of this hackathon was to predict age and place of residence of customers from transaction data (ATM withdrawals)
 
 ---
 
 ## Professional Training
 
-#### > Financial Risk Management
+#### > Financial Risk Management & Modelling
 - Development of PD and LGD/EAD models ([Risk Research](https://www.risk-research.de/de/startseite))
 - Building better Scorecards ([ScorePlus](https://www.scoreplus.de/))
 -  [PRM](https://prmia.org/) Certification (ongoing, started in July 2019)
