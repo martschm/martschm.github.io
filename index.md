@@ -2,7 +2,7 @@
 
 <br>
 
-# [About Me](/about_me)
+# [Curriculum Vitae](/about_me)
 
 <br>
 
