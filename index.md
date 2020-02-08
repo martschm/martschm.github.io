@@ -1,8 +1,8 @@
+# [View My LinkedIn Profile](https://www.linkedin.com/in/martschm/)
+
+<br>
+
 # [About Me](/about_me)
-
-<br><br>
-
-# [LinkedIn Profile](https://www.linkedin.com/in/martschm/)
 
 <br><br>
 
