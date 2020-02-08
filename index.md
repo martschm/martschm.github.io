@@ -18,8 +18,6 @@
 
 ---
 
-<br>
-
 ---
 ## [Route Optimization (brute force) in Python](/python_route_optimization)
 
