@@ -22,7 +22,7 @@
 
 ## Work Experience
 
-**> Credit Risk Manager at [ING in Austria](https://ing.at)** (July 2016 - ongoing)
+**> Quantitative Credit Risk Manager at [ING in Austria](https://ing.at)** (July 2016 - ongoing)
 
 - Developed a retail credit acceptance model and a loan scorecard
 in Python using machine learning and traditional statistical
