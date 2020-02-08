@@ -60,10 +60,12 @@ in detection of future cases
 #### > November 2019: Winner of the [ECB Coding Challenge on Risk Management](https://www.ecb.europa.eu/ecb/educational/youth-initiatives/html/coding-challenge.en.html) (hosted by the European Central Bank)
 Part of a small international team (’EUreka!’) working on (dynamic) web-scraping of various news websites and unsupervised machine learning for Natural Language Processing (clustering of similar articles using Latent Dirichlet Allocation)
 
-#### > Winner of the [2nd DSI Data Science Hackathon](https://www.univie.ac.at/dsi-students/2nd-data-science-hackathon/) (hosted by BAWAG Group AG)
+#### > May 2019: Winner of the [2nd DSI Data Science Hackathon](https://www.univie.ac.at/dsi-students/2nd-data-science-hackathon/) (hosted by BAWAG Group AG)
 - 1st place in 'Data Insights'
 - 2nd place in 'Model Performance'
+<br>
 The goal of this hackathon was to predict age and place of residence of customers from transaction data (ATM withdrawals)
+
 ---
 
 ## Professional Training
