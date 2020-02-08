@@ -6,7 +6,7 @@
 
 ---
 
-**View My CV [here](/pdf/20190818_CV_Martin_Schmidt.pdf).**
+**View My CV [here](/pdf/20200208_CV_Martin_Schmidt_English.pdf).**
 
 ---
 
