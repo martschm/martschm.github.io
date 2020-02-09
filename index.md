@@ -10,7 +10,7 @@
 
 ---
 
-## [Diploma Thesis](/diploma_thesis)
+## [Diploma Thesis (R)](/diploma_thesis)
 
 ### Financial and Actuarial Mathematics
 
