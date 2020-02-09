@@ -27,7 +27,7 @@ def read_locations_csv(path, sep):
     This function reads the csv with specified locations
     Input:
         path - local path to csv
-        sep - seperator used in csv, default: ";"
+        sep - seperator used in csv
     """
     
     df = pd.read_csv(path, sep)
@@ -150,11 +150,16 @@ def get_all_possible_tours(df_locations, do_round):
 ```python
 def calc_tour_length(df_all_tours, df_routes):
     """
-    asdf
+    Function calculates the total length of all possible tours
+    Input:
+        df_all_tours - df with all tours, output of get_all_possible_tours
+        df_routes - df with all intermediate routes including length of route
     """
     
+    # initialize empty numpy matrix
     dist_matrix = np.empty(df_all_tours.shape)
     
+    # fill matrix with duration/distance
     for i in range(dist_matrix.shape[0]):
         for j in range(dist_matrix.shape[1]-1):
             start = df_all_tours[j][i]
