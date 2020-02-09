@@ -111,7 +111,7 @@ def query_google_maps_distance_matrix(df, api_key, mode_transport, mode_metric):
 ```
 <br>
 
-### Create all possible tours
+### Create a dataframe of all possible tours
 
 
 ```python
@@ -174,6 +174,7 @@ def calc_tour_length(df_all_tours, df_routes):
 <br>
 
 ## Main function
+### Calls all other auxiliary functions
 
 
 ```python
