@@ -16,7 +16,7 @@ from itertools import permutations
 import numpy as np
 import pandas as pd
 ```
-<br><br>
+<br>
 
 ### Read CSV-file
 
@@ -38,7 +38,7 @@ def read_locations_csv(path, sep):
         
     return df
 ```
-<br><br>
+<br>
 
 ### All possible routes between two locations
 
@@ -73,7 +73,7 @@ def get_intermediate_routes(df, do_round):
     
     return int_routes
 ```
-<br><br>
+<br>
 
 ### Connection to Google Could Distance Matrix API
 
@@ -109,7 +109,7 @@ def query_google_maps_distance_matrix(df, api_key, mode_transport, mode_metric):
         
     return result
 ```
-<br><br>
+<br>
 
 ### Create all possible tours
 
@@ -142,7 +142,7 @@ def get_all_possible_tours(df_locations, do_round):
     
     return df_all_tours
 ```
-<br><br>
+<br>
 
 ### Length (duration/distance) of each tour
 
@@ -166,7 +166,7 @@ def calc_tour_length(df_all_tours, df_routes):
     
     return total_length
 ```
-<br><br>
+<br>
 
 ## Main function
 
