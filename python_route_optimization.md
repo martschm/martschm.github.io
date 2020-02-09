@@ -4,7 +4,7 @@
 The program gets as input a csv-file with locations (longitude and latitude) and calculates the best route (based on time/distance) starting from a specified location using Google’s Distance Matrix API<br><br>
 
 Here is an example of how the csv-file should be structured<br><br>
-<img src="images/python_route_optimization_sample_csv.png?raw=true"/>
+<img src="images/python_route_optimization_sample_csv.jpg?raw=true"/>
 <br><br>
 
 ### Required packages
