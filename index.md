@@ -1,6 +1,6 @@
-# [View My LinkedIn Profile](https://www.linkedin.com/in/martschm/)
+# Home
 
-<br>
+<br><br>
 
 # [Curriculum Vitae](/about_me)
 
