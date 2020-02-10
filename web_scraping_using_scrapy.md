@@ -17,7 +17,7 @@ import logging, sys
 logging.disable(sys.maxsize)
 ```
 
-## Scrapter Classes
+## Scraper Classes
 Any number of scraper classes can be defined here
 
 **Reuters News**
