@@ -1,9 +1,9 @@
 # Curriculum Vitae
 <br><br>
 
-## Download my **CV [here](/pdf/20200208_CV_Martin_Schmidt_English.pdf)**
+## Download my CV [here](/pdf/20200208_CV_Martin_Schmidt_English.pdf)
 
-## View my **LinkedIn Profile [here](https://www.linkedin.com/in/martschm/)**
+## View my LinkedIn Profile [here](https://www.linkedin.com/in/martschm/)
 <br>
 
 ---
