@@ -16,6 +16,7 @@ from scrapy.crawler import CrawlerProcess
 import logging, sys
 logging.disable(sys.maxsize)
 ```
+<br>
 
 ## Scraper Classes
 Any number of scraper classes can be defined here
@@ -55,6 +56,7 @@ class reuters_news(scrapy.Spider):
         # the first (duration of reading) and the last (authors) list element are not useful
         self.dictionary["text"].append(text_tmp[1:-1])
 ```
+<br>
 
 ## Auxiliary Functions
 
@@ -88,6 +90,7 @@ def unlist_columns(dct):
     tmp["text"]    = [convert_if_list(sublist) for sublist in tmp["text"]]
     return tmp
 ```
+<br>
 
 ## Main Function - Web Scraping
 
@@ -133,6 +136,7 @@ def crawl(scraping_class, nr_pages):
     
     return df_raw
 ```
+<br>
 
 ## Example
 
@@ -197,10 +201,6 @@ df_scraped.head(3)
 ```python
 df_scraped.shape
 ```
-
-
-
-
-    (626, 5)
+(626, 5)
 
 
