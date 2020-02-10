@@ -203,6 +203,6 @@ df_scraped.head(3)
 ```python
 df_scraped.shape
 ```
-(626, 5)  ->  data from more than 600 news articles in around 20 seconds
+(626, 5)  -->  data from more than 600 news articles in around 20 seconds
 
 
