@@ -3,6 +3,7 @@
 <br>
 
 ## View my LinkedIn Profile [here](https://www.linkedin.com/in/martschm/)
+<br>
 
 ---
 
