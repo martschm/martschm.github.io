@@ -14,7 +14,7 @@
 
 ### Financial and Actuarial Mathematics
 
-Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure (including R-Code)
+Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure
 
 ---
 
