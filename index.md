@@ -26,7 +26,7 @@ The program gets as input a csv-file with locations (longitude and latitude) and
 ---
 
 ---
-## [Web-Scraping using Scrapy (Python)]()
+## [Web-Scraping using Scrapy (Python)](martschm.github.io)
 
 This project serves to demonstrate web scraping in Python using Scrapy on the example of Reuters News (https://www.reuters.com)
 
