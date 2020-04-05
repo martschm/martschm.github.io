@@ -650,7 +650,6 @@ plt.tight_layout(pad=0)
 
 
 ## 6 - Modeling
-Using [log-likelihood](https://en.wikipedia.org/wiki/Likelihood_function) as evaluation metrics.
 
 ### 6.1 - Create [Document-Term Matrix](https://en.wikipedia.org/wiki/Document-term_matrix)
 
@@ -685,7 +684,7 @@ print(f"log_likelihood: {round(lda_baseline.score(document_term_matrix),2)}")
 
 ### 6.3 - Grid-Search to find optimal parameters
 
-#### 6.3.1 - Log-Likelihood
+#### 6.3.1 - [Log-Likelihood](https://en.wikipedia.org/wiki/Likelihood_function)
 
 
 ```python
@@ -732,19 +731,6 @@ models_ll.head(5)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -861,19 +847,6 @@ df_topics.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
