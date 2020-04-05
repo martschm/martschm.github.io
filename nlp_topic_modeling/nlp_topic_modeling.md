@@ -1,5 +1,7 @@
 # NLP - Topic Modeling (Python)
 
+<br>
+
 ## Purpose
 
 For this project I have scraped (for a scraping tutorial see my tutorial [here](https://martschm.github.io/web_scraping_using_scrapy)) news articles from [Reuters](https://uk.reuters.com/news/archive/euro-zone-news) and clustered them using [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation).
@@ -13,6 +15,8 @@ Since there is no proper classification of articles on Reuters, my model support
 I used the scraper i described [here](https://martschm.github.io/web_scraping_using_scrapy) to get all available Euro-Zone news from Reuters.
 
 The data can be downloaded from [here](https://github.com/martschm/martschm.github.io/blob/master/nlp_topic_modeling/20200329_reuters_news_euro_zone.7z).
+
+<br>
 
 ## 2 - Required Packages
 
@@ -49,6 +53,8 @@ from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import GridSearchCV
 ```
+
+<br>
 
 ## 3 - Data Cleaning
 
@@ -225,7 +231,7 @@ df.date.iloc[0]
 
     Timestamp('2018-07-24 00:00:00')
 
-
+<br>
 
 ## 4 - Exploratory Data Analysis
 
@@ -294,6 +300,8 @@ df = keep_only_articles_published_after(df, "date", date_min)
     
 
 After all these steps we reduced numbers of articles by 2,055 and are **left with 7,718 articles** over a **time period of 1.5 years**.
+
+<br>
 
 ## 5 - Feature Engineering
 
@@ -650,6 +658,7 @@ plt.tight_layout(pad=0)
 
 ![png](output_55_0.png)
 
+<br>
 
 ## 6 - Modeling
 
@@ -828,6 +837,8 @@ pyLDAvis.enable_notebook()
 panel = pyLDAvis.sklearn.prepare(lda_final, document_term_matrix, cv, mds='tsne')
 pyLDAvis.save_html(panel, 'lda_final.html')
 ```
+
+<br>
 
 ## 7 - Final Dataframe including Topic
 
