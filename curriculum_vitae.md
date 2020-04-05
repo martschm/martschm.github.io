@@ -10,7 +10,7 @@
 
 ## Personal Overview
 
-- **Date of birth:** December 31, 1992 (27 years)
+- **Date of birth:** December 31, 1992
 - **Nationality:** Austria
 - **Marital status:** married
 - **Military service:** completed
