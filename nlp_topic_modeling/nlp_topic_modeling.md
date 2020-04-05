@@ -7,7 +7,7 @@ For this project I have scraped (for a scraping tutorial see my tutorial [here](
 Since there is no proper classification of articles on Reuters, my model supports the reader in finding **articles relating to a specific topic**. Furthermore, the model could be used to **classify future articles** as well.
 
 
-
+<br>
 ## 1 - Data Gathering
 
 I used the scraper i described [here](https://martschm.github.io/web_scraping_using_scrapy) to get all available Euro-Zone news from Reuters.
