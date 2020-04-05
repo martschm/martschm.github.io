@@ -2,7 +2,7 @@
 
 ## Purpose
 
-For this project I have scraped (for a scraping tutorial, see my publication [here](https://martschm.github.io/web_scraping_using_scrapy)) news articles from [Reuters](https://uk.reuters.com/news/archive/euro-zone-news) and clustered them using [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation).
+For this project I have scraped (for a scraping tutorial see my tutorial [here](https://martschm.github.io/web_scraping_using_scrapy)) news articles from [Reuters](https://uk.reuters.com/news/archive/euro-zone-news) and clustered them using [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation).
 
 Since there is no proper classification of articles on Reuters, my model supports the reader in finding **articles relating to a specific topic**. Furthermore, the model could be used to **classify future articles** as well.
 
