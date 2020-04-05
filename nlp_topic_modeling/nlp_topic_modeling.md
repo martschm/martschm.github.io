@@ -10,7 +10,7 @@ Since there is no proper classification of articles on Reuters, my model support
 
 I used the scraper i described [here](https://martschm.github.io/web_scraping_using_scrapy) to get all available Euro-Zone news from Reuters.
 
-The data can be downloaded from [here](link to csv).
+The data can be downloaded from [here](https://github.com/martschm/martschm.github.io/blob/master/nlp_topic_modeling/20200329_reuters_news_euro_zone.7z).
 
 ## 2 - Required Packages
 
@@ -115,19 +115,6 @@ df.head(3)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
