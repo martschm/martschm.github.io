@@ -93,13 +93,13 @@ def query_google_maps_distance_matrix(df, api_key, mode_transport, mode_metric):
     """
     
     # start goolge maps api connection 
-    gmaps = gm.Client(key = api_key)
+    gmaps = gm.Client(key=api_key)
     
     # query google distance matrix api for all starting and end points
     result = []
     for i in range(df.shape[0]):
-        start = (df["latitude_x"][i],df["longitude_x"][i])
-        end   = (df["latitude_y"][i],df["longitude_y"][i])
+        start = (df["latitude_x"][i], df["longitude_x"][i])
+        end   = (df["latitude_y"][i], df["longitude_y"][i])
         # for mode_metric == "duration", seconds are returned
         # for mode_metric == "distance", meters are returned
         result_tmp = gmaps.distance_matrix(start, end, mode=mode_transport)["rows"][0]["elements"][0][mode_metric]["value"]
