@@ -22,7 +22,7 @@
 
 #### > Quantitative Credit Risk Manager at [ING Austria](https://ing.at) (July 2016 - ongoing)
 
-- Developed a retail credit acceptance model and a loan scorecard
+- Supported the development of a retail credit acceptance model 
 in Python using machine learning and traditional statistical
 methods (XGBoost, Random Forest, Logistic Regression).
 Agile collaboration with colleagues from Advanced
