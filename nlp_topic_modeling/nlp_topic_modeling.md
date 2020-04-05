@@ -102,7 +102,7 @@ path_data = "../data/20200329_reuters_news_euro_zone.csv"
 df = read_data_from_csv(path_data)
 ```
 
-shape of df: (9773, 5)
+    shape of df: (9773, 5)
     columns in df: ['scraper', 'url', 'date', 'title', 'text']
     
 
