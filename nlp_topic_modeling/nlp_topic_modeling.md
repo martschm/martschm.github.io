@@ -116,7 +116,7 @@ df = read_data_from_csv(path_data)
 
 
 ```python
-df.head(3)
+df[["date", "title", "text"]].head(3)
 ```
 
 
@@ -127,8 +127,6 @@ df.head(3)
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>scraper</th>
-      <th>url</th>
       <th>date</th>
       <th>title</th>
       <th>text</th>
@@ -137,24 +135,18 @@ df.head(3)
   <tbody>
     <tr>
       <th>0</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/us-reuters-edit...</td>
       <td>July 24, 2018 /  8:08 PM / in 3 months</td>
       <td>Reuters Leadership</td>
       <td>Jane Barrett   Rob Cox...</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/uk-health-coron...</td>
       <td>March 28, 2020 /  4:15 PM / Updated 14 hours ago</td>
       <td>Coronavirus death toll in Italy's Lombardy ris...</td>
       <td>MILAN (Reuters) - The death toll from an outbr...</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/uk-health-coron...</td>
       <td>March 28, 2020 /  10:01 PM / Updated 10 hours ago</td>
       <td>Northern Ireland brings in tough measures to f...</td>
       <td>BELFAST (Reuters) - Northern Ireland will intr...</td>
