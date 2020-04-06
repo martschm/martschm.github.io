@@ -853,7 +853,7 @@ tok_cor_top = pd.DataFrame(
 
 df_topics = df.merge(tok_cor_top, left_index=True, right_index=True, how="inner").reset_index(drop=True)
 
-df_topics.head()
+df_topics[["date", "title", "text", "topic"]].head()
 ```
 
 
@@ -864,70 +864,46 @@ df_topics.head()
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>scraper</th>
-      <th>url</th>
       <th>date</th>
       <th>title</th>
       <th>text</th>
-      <th>corpus</th>
-      <th>tokens</th>
       <th>topic</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/uk-health-coron...</td>
       <td>2020-03-28</td>
       <td>Coronavirus death toll in Italy's Lombardy ris...</td>
       <td>MILAN (Reuters) - The death toll from an outbr...</td>
-      <td>death toll outbreak coronavirus northern regio...</td>
-      <td>[death, toll, outbreak, coronavirus, northern,...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/uk-health-coron...</td>
       <td>2020-03-28</td>
       <td>Northern Ireland brings in tough measures to f...</td>
       <td>BELFAST (Reuters) - Northern Ireland will intr...</td>
-      <td>introduce sweeping new power combat spread cor...</td>
-      <td>[introduce, sweeping, new, power, combat, spre...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/uk-health-coron...</td>
       <td>2020-03-27</td>
       <td>British ministers won't be tested for virus un...</td>
       <td>LONDON (Reuters) - Boris Johnson’s top team of...</td>
-      <td>team minister win test coronavirus symptom bri...</td>
-      <td>[team, minister, win, test, coronavirus, sympt...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/uk-health-coron...</td>
       <td>2020-03-27</td>
       <td>Johnson's central role to UK virus response en...</td>
       <td>LONDON (Reuters) - People with a central role ...</td>
-      <td>people central role ordinate response coronavi...</td>
-      <td>[people, central, role, ordinate, response, co...</td>
       <td>12</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>reuters_news</td>
-      <td>https://uk.reuters.com/article/uk-health-coron...</td>
       <td>2020-03-27</td>
       <td>Foreigners face suspicion in China as coronavi...</td>
       <td>SHENZHEN, China/SHANGHAI (Reuters) - Francesca...</td>
-      <td>neighbour walk pekingese mix breed waffle stre...</td>
-      <td>[neighbour, walk, pekingese, mix, breed, waffl...</td>
       <td>12</td>
     </tr>
   </tbody>
