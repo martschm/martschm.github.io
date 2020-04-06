@@ -77,7 +77,7 @@ def get_intermediate_routes(df, do_round):
 
 ### Connection to Google Could Distance Matrix API
 
-for more information: https://github.com/googlemaps/google-maps-services-python/blob/master/googlemaps/distance_matrix.py
+More information can be found [here](https://github.com/googlemaps/google-maps-services-python/blob/master/googlemaps)
 
 
 ```python
