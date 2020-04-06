@@ -260,7 +260,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![png](nlp_topic_modeling/output_25_0.png)
 
 
 This plot clearly shows that some articles published before 09/2018 are no longer available online. The next graphic confirms this.
@@ -276,7 +276,7 @@ plt.show()
 ```
 
 
-![png](output_27_0.png)
+![png](nlp_topic_modeling/output_27_0.png)
 
 
 I have decided to not consider articles before September 2018 for this project.
@@ -458,7 +458,7 @@ plt.show()
 ```
 
 
-![png](output_44_0.png)
+![png](nlp_topic_modeling/output_44_0.png)
 
 
 
@@ -469,7 +469,7 @@ plt.show()
 ```
 
 
-![png](output_45_0.png)
+![png](nlp_topic_modeling/output_45_0.png)
 
 
 
@@ -480,7 +480,7 @@ plt.show()
 ```
 
 
-![png](output_46_0.png)
+![png](nlp_topic_modeling/output_46_0.png)
 
 
 Based on the above and further analysis I have decided to exclude the top 1% of the short/longest articles. This leaves us with 7580 publications for modeling.
@@ -648,7 +648,7 @@ plt.tight_layout(pad=0)
 ```
 
 
-![png](output_55_0.png)
+![png](nlp_topic_modeling/output_55_0.png)
 
 <br>
 
@@ -802,7 +802,7 @@ plt.show()
 ```
 
 
-![png](output_68_0.png)
+![png](nlp_topic_modeling/output_68_0.png)
 
 
 #### 6.3.2 - Perplexity
@@ -821,7 +821,7 @@ lda_final = LatentDirichletAllocation(
 ).fit(document_term_matrix)
 ```
 
-I used **pyLDAvis** for **visualization** purposes. I have saved the results as HTML and they can be viewed [here](lda_final.html). 
+I used **pyLDAvis** for **visualization** purposes. I have saved the results as HTML and they can be viewed [here](nlp_topic_modeling/lda_final.html). 
 
 
 ```python
