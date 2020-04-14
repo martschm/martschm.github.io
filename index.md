@@ -1,4 +1,4 @@
-# Home
+# Portfolio
 
 <br><br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-# My Projects
+# Projects
 
 ---
 
@@ -33,8 +33,6 @@ This project serves to demonstrate web scraping in Python using Scrapy on the ex
 ---
 ## [NLP - Topic Modeling (Python)](/nlp_topic_modeling)
 
-For this project I have scraped news articles from [Reuters](https://uk.reuters.com/news/archive/euro-zone-news) and clustered them using [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation). Since there is no proper classification of articles on Reuters, my model supports the reader in finding articles relating to a specific topic. Furthermore, the model could be used to classify future articles as well.
-<br><br>
-Graphical results can be found [here](/nlp_topic_modeling/lda_final.html).
+For this project I have scraped news articles from [Reuters](https://uk.reuters.com/news/archive/euro-zone-news) and clustered them using [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation). Since there is no proper classification of articles on Reuters, my model supports the reader in finding articles relating to a specific topic. Furthermore, the model could be used to classify future articles as well. Graphical results can be found [here](/nlp_topic_modeling/lda_final.html).
 
 ---
