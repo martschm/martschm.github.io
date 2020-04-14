@@ -12,7 +12,7 @@
 
 ## [Diploma Thesis - Financial and Actuarial Mathematics (R)](/diploma_thesis)
 
-Summary of the main results (including R-code) of my diploma thesis *'Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure'* at the [Vienna University of Technology](https://www.tuwien.at/en/) under the supervision of [Dr. Uwe Schmock](https://fam.tuwien.ac.at/~schmock/).
+Summary of the main results (including R-Code) of my diploma thesis *'Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure'* at the [Vienna University of Technology](https://www.tuwien.at/en/) under the supervision of [Dr. Uwe Schmock](https://fam.tuwien.ac.at/~schmock/).
 
 ---
 
