@@ -830,6 +830,8 @@ panel = pyLDAvis.sklearn.prepare(lda_final, document_term_matrix, cv, mds='tsne'
 pyLDAvis.save_html(panel, 'lda_final.html')
 ```
 
+![png](nlp_topic_modeling/pyldavis_example.png)
+
 <br>
 
 ## 7 - Final Dataframe including Topic
