@@ -275,7 +275,7 @@ plt.show()
 ![png](ubs_quant_assignment/output_37_0.png)
 
 
-Using $R^2$ (default scoring method for LinearRegression in sklearn) to evaluate model-performance:
+Using R2 (default scoring method for LinearRegression in sklearn) to evaluate model-performance:
 
 
 ```python
@@ -285,7 +285,7 @@ print(f"R2-value of model: {round(lm_vers1.score(X_test, y_test),2)}")
     R2-value of model: -0.58
     
 
-Our $R^2$ is negative, indicating that the model we built **fits worse than a horizontal line**.
+Our R2 is negative, indicating that the model we built **fits worse than a horizontal line**.
 
 
 ```python
@@ -391,4 +391,3 @@ print(df_model_coef_final)
     3      CPI     0.092293
     4      HPI     0.134953
     5    CDS5Y     0.007458
-    
