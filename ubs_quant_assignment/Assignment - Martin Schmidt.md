@@ -7,7 +7,7 @@ The **task** was as follows:
 ![png](task.png)
 <br>
 
-The **data** (HistoricalData.csv) can be found **here**.
+The **data** (HistoricalData.csv) can be found **[here](https://github.com/martschm/martschm.github.io/blob/master/ubs_quant_assignment/HistoricalData.csv)**.
 
 ## Required Packages/Libraries
 
