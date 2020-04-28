@@ -1,6 +1,6 @@
-# UBS - Quantitative Analyst - Assignment
+# VIX Modeling
 
-## VIX Modeling
+## UBS - Quantitative Analyst - Assignment
 
 The problem statement for the analysis below comes from **UBS** and is **part of an assignment for quantitative analysts**.
 
