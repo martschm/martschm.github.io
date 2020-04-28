@@ -4,7 +4,7 @@ The problem statement for the analysis below comes from **UBS** and is **part of
 
 The **task** was as follows:
 
-<img src="task.png" width="750" height="300" align="left">
+![png](task.png)
 <br>
 
 The **data** (HistoricalData.csv) can be found **here**.
