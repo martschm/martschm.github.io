@@ -11,7 +11,7 @@ The **task** was as follows:
 
 The **data** (HistoricalData.csv) can be found **[here](https://github.com/martschm/martschm.github.io/blob/master/ubs_quant_assignment/HistoricalData.csv)**.
 
-## Required Packages/Libraries
+## Required Packages
 
 
 ```python
