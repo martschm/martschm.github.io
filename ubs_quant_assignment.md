@@ -84,14 +84,6 @@ def split_train_test(df, test_size):
     return X_train, y_train, X_test, y_test
 ```
 
-Function below calculates and prints the following performance measures:
-
-- **Mean Absolute Error**, calculated as $\frac{1}{n}\sum_{i=1}^n |y_i - \hat y_i|$
-
-- **Mean Squared Error**, calculated as $\frac{1}{n}\sum_{i=1}^n (y_i - \hat y_i)^2$
-
-- **Root Mean Squared Error**, calculated as $\sqrt{\frac{1}{n}\sum_{i=1}^n (y_i - \hat y_i)^2}$
-
 
 ```python
 def print_other_model_stats(y_test, y_pred):
