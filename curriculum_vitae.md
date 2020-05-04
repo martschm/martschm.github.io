@@ -66,7 +66,7 @@ Part of a small international team (’EUreka!’) working on (dynamic) web-scra
 <br><br>
 **View certificate [here](/pdf/ECB_Coding_Challenge_Risk_Management_Martin_Schmidt.pdf).**
 
-#### > May 2019: Winner of the [2<sup>nd</sup> DSI Data Science Hackathon](https://www.univie.ac.at/dsi-students/2nd-data-science-hackathon/) (hosted by [BAWAG Group AG](https://www.bawaggroup.com/BAWAGGROUP/group/EN))
+#### > May 2019: Winner of the [2<sup>nd</sup> DSI Data Science Hackathon](https://www.univie.ac.at/dsi-students/events/) (hosted by [BAWAG Group AG](https://www.bawaggroup.com/BAWAGGROUP/group/EN))
 The goal of this hackathon was to predict age and place of residence of customers from transaction data (ATM withdrawals)
 - 1st place in 'Data Insights'
 - 2nd place in 'Model Performance'
