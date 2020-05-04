@@ -1,15 +1,14 @@
 # Curriculum Vitae
 <br><br>
 
-## Download my CV [here](/pdf/20200406_CV_Martin_Schmidt_English.pdf)
-
-## View my LinkedIn Profile [here](https://www.linkedin.com/in/martschm/)
-<br>
-
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer>
 </script>
 
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="de_DE" data-type="vertical" data-theme="dark" data-vanity="martschm"><a class="LI-simple-link" href='https://at.linkedin.com/in/martschm?trk=profile-badge'>Martin Schmidt</a></div>
+<br><br>
+
+
+## Download my CV [here](/pdf/20200406_CV_Martin_Schmidt_English.pdf)
 
 ---
 
