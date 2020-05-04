@@ -1,7 +1,7 @@
 # Curriculum Vitae
 <br><br>
 
-## Download my CV [here](/pdf/20200406_CV_Martin_Schmidt_English.pdf)
+## Download my latest CV [here](/pdf/20200406_CV_Martin_Schmidt_English.pdf)
 ---
 <br><br>
 
