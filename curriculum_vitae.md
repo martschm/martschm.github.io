@@ -34,16 +34,17 @@ methods (XGBoost, Random Forest, Logistic Regression).
 Agile collaboration with colleagues from Advanced
 Analytics and Model Validation from the ING Head Office
 - Backtesting of external credit bureau models (CRIF, KSV)
+- Analysed fraudulent loan applications using network analysis
+in Python and implemented a SAS-tool to support operations
+in detection of future cases
 - Led the development of automated reporting from internal
 databases in the financial and non-financial risk area from
 scratch using SAS, SQL and VBA
 - Responsible for implementation of regulatory reporting requirements
 (e.g. New Definition of Default, IFRS 9) in SAS
+- Gained first leadership experience by guiding new colleagues through their onboarding-process
 - Member of the local Credit Risk Committee presenting to
 the management board
-- Analysed fraudulent loan applications using network analysis
-in Python and implemented a SAS-tool to support operations
-in detection of future cases
 
 ---
 
