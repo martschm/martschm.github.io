@@ -42,7 +42,7 @@ databases in the financial and non-financial risk area from
 scratch using SAS, SQL and VBA
 - Responsible for implementation of regulatory reporting requirements
 (e.g. New Definition of Default, IFRS 9) in SAS
-- Gained first leadership experience by guiding new colleagues through their onboarding-process
+- Gained first leadership experience by guiding new colleagues through their onboarding process
 - Member of the local Credit Risk Committee presenting to
 the management board
 
