@@ -97,6 +97,7 @@ The goal of this hackathon was to predict age and place of residence of customer
 - **Python** (advanced)
 - **VBA** (advanced)
 - **Git** (advanced)
+- **Julia** (basic)
 - **C, C++** (basic)
 
 ---
