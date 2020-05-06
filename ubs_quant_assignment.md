@@ -1,4 +1,4 @@
-# VIX Modeling (Python)
+# Simple VIX Modeling (Python)
 
 ## UBS - Quantitative Analyst - Assignment
 
