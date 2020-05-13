@@ -37,9 +37,9 @@ The program gets as input a csv-file with locations (longitude and latitude) and
 
 ---
 
----
-## [Simple VIX Modeling (Python)](/ubs_quant_assignment)
+<! --- ---
+<! --- ## [Simple VIX Modeling (Python)](/ubs_quant_assignment)
 
-The problem statement for this project comes from [UBS](https://en.wikipedia.org/wiki/UBS) and is part of an assignment for quantitative analysts. In a nutshell, the goal was to build a simple prediction model for [VIX](https://en.wikipedia.org/wiki/VIX) (volatility index) using predefined indices (e.g. SP500, NASDAQ, CPI). 
+<! --- The problem statement for this project comes from [UBS](https://en.wikipedia.org/wiki/UBS) and is part of an assignment for quantitative analysts. In a nutshell, the goal was to build a simple prediction model for [VIX](https://en.wikipedia.org/wiki/VIX) (volatility index) using predefined indices (e.g. SP500, NASDAQ, CPI). 
 
----
+<! --- ---
