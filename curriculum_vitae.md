@@ -25,8 +25,7 @@
 
 ## Professional Experience
 
-### > Examiner - Internal Credit Risk Models (IRB)
-#### September 2020 - ongoing
+### > Examiner - Internal Credit Risk Models (IRB) at the [National Bank of Austria](https://oenb.at) (September 2020 - ongoing)
 
 <img src="images/OeNB.png?raw=true" width="200"/>
 
@@ -34,8 +33,7 @@
 
 
 
-### > Quantitative Credit Risk Manager at [ING in Austria](https://ing.at) 
-#### July 2016 - August 2020
+### > Quantitative Credit Risk Manager at [ING in Austria](https://ing.at) (July 2016 - August 2020)
 
 <img src="images/ING.jpg?raw=true" width="200"/>
 
