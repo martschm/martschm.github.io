@@ -30,7 +30,7 @@
 
 <img src="images/OeNB.png?raw=true" width="200"/>
 
-<br><br>
+<br>
 
 
 
@@ -67,7 +67,7 @@ the management board
 - Graduation with highest distinction (**view certificate [here](/pdf/Studies_Certificate_Martin_Schmidt.pdf)**)
 - Diploma Thesis: [Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis) (nominated for the [AVÖ-price](http://avoe.at/wp-content/uploads/2014/09/AVOe_Foerderung_Abschlussarbeiten_2016.pdf) in 2020)
 
-<br><br>
+<br>
 
 
 ### BSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (October 2012 - March 2016)
