@@ -86,11 +86,11 @@ The goal of this hackathon was to predict age and place of residence of customer
 
 ## Professional Training
 
-### > Financial Risk Management & Modelling
+### > Financial Risk Management & Modeling
 - Development of PD and LGD/EAD models ([Risk Research](https://www.risk-research.de/de/startseite))
 - Building better Scorecards ([ScorePlus](https://www.scoreplus.de/))
 -  [PRM](https://prmia.org/) Certification (ongoing, started in July 2019)
-- Credit Risk Modelling for Basel/IFRS 9 ([BlueCourses](https://www.bluecourses.com/courses/course-v1:bluecourses+BC2+September2019/about), ongoing)
+- Credit Risk Modeling for Basel/IFRS 9 ([BlueCourses](https://www.bluecourses.com/courses/course-v1:bluecourses+BC2+September2019/about), ongoing)
 - Statistical methods and data analytics for IRB model examiners ([National Bank of Austria](https://oenb.at))
 
 ### > Programming and Data Science
