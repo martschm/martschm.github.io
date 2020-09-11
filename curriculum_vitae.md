@@ -25,7 +25,7 @@
 
 ## Professional Experience
 
-### > Quantitative Credit Risk Manager at [ING Austria](https://ing.at) (July 2016 - ongoing)
+#### > Quantitative Credit Risk Manager at [ING Austria](https://ing.at) (July 2016 - August 2020)
 <img src="images/ING.jpg?raw=true" width="200"/>
 
 - Supported the development of a retail credit acceptance model 
