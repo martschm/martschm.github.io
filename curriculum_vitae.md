@@ -50,6 +50,7 @@ the management board
 ---
 
 ## Academic Education
+<img src="images/TUWien.png?raw=true" width="200"/>
 
 ### MSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (March 2016 - March 2019)
 
