@@ -27,7 +27,8 @@
 
 ### Quantitative Credit Risk Manager at [ING in Austria](https://ing.at) 
 #### July 2016 - August 2020
-<img src="images/ING.jpg?raw=true" width="200"/>
+
+<img src="images/ING.jpg?raw=true" width="150"/>
 
 - Supported the development of a retail credit acceptance model 
 in Python using machine learning and traditional statistical
