@@ -51,9 +51,9 @@ scratch using SAS, SQL and VBA
 - Member of the local Credit Risk Committee presenting to
 the management board
 
-View **Letter of Reference** [here](/pdf/SCHMIDT Martin_Letter of Reference.pdf).
+View **Letter of Reference** [here](/pdf/Studies_Certificate_Martin_Schmidt.pdf).
 
-View **Recommendation Letter from the CRO** [here](/pdf/SCHMIDT Martin_Recommendation Letter.pdf).
+View **Recommendation Letter from the CRO** [here](/pdf/Studies_Certificate_Martin_Schmidt.pdf).
 
 ---
 
