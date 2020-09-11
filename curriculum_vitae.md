@@ -28,14 +28,15 @@
 ### Examiner - Internal Credit Risk Models (IRB)
 #### September 2020 - ongoing
 
-<img src="images/OeNB.png?raw=true" width="150"/>
+<img src="images/OeNB.png?raw=true" width="200"/>
+<br><br>
 
 
 
 ### Quantitative Credit Risk Manager at [ING in Austria](https://ing.at) 
 #### July 2016 - August 2020
 
-<img src="images/ING.jpg?raw=true" width="150"/>
+<img src="images/ING.jpg?raw=true" width="200"/>
 
 - Supported the development of a retail credit acceptance model 
 in Python using machine learning and traditional statistical
@@ -58,12 +59,13 @@ the management board
 ---
 
 ## Academic Education
-<img src="images/TUWien.png?raw=true" width="150"/>
+<img src="images/TUWien.png?raw=true" width="200"/>
 
 ### MSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (March 2016 - March 2019)
 
 - Graduation with highest distinction (**view certificate [here](/pdf/Studies_Certificate_Martin_Schmidt.pdf)**)
 - Diploma Thesis: [Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis) (nominated for the [AVÖ-price](http://avoe.at/wp-content/uploads/2014/09/AVOe_Foerderung_Abschlussarbeiten_2016.pdf) in 2020)
+<br><br>
 
 ### BSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (October 2012 - March 2016)
 
