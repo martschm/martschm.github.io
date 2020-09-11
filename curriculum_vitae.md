@@ -25,6 +25,13 @@
 
 ## Professional Experience
 
+### Examiner - Internal Credit Risk Models (IRB)
+#### September 2020 - ongoing
+
+<img src="images/OeNB.png?raw=true" width="150"/>
+
+
+
 ### Quantitative Credit Risk Manager at [ING in Austria](https://ing.at) 
 #### July 2016 - August 2020
 
@@ -51,7 +58,7 @@ the management board
 ---
 
 ## Academic Education
-<img src="images/TUWien.png?raw=true" width="200"/>
+<img src="images/TUWien.png?raw=true" width="150"/>
 
 ### MSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (March 2016 - March 2019)
 
