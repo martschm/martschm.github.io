@@ -20,7 +20,8 @@
 - **Nationality:** Austria
 - **Marital status:** married
 - **Military service:** completed
-- **Period of notice:** 3 months (mid and end of month)
+
+<> - **Period of notice:** 3 months (mid and end of month)
 
 ---
 
