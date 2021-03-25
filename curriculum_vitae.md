@@ -18,14 +18,15 @@
 
 - **Date of birth:** December 31, 1992
 - **Nationality:** Austria
-- **Marital status:** married
+- **Marital status:** married, 1 child
 - **Military service:** completed
+- **Period of notice:** 4 months
 
 ---
 
 ## Professional Experience
 
-### > Examiner - Internal Credit Risk Models (IRB) at the [National Bank of Austria](https://oenb.at) (September 2020 - ongoing)
+### > Examiner - IRB Credit Risk Models (SI) at the [National Bank of Austria](https://oenb.at) (September 2020 - ongoing)
 
 <br>
 
