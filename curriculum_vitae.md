@@ -94,8 +94,6 @@ Part of a small international team (’EUreka!’) working on (dynamic) web-scra
 <br><br>
 **View a video of the developed solution (GUI, Clustering) [here](/videos/ECB_Coding_Challenge_ShowCase.mp4).**
 
-<br>
-
 **View certificate [here](/pdf/ECB_Coding_Challenge_Risk_Management_Martin_Schmidt.pdf).**
 
 ### > May 2019: Winner of the [2<sup>nd</sup> DSI Data Science Hackathon](https://www.bawaggroup.com/BAWAGGROUP/News/EN/recentnews/462482/hackathon-en.html) (hosted by [BAWAG Group AG](https://www.bawaggroup.com/BAWAGGROUP/group/EN))
