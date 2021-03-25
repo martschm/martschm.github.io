@@ -28,6 +28,13 @@
 
 ### > Examiner - IRB Credit Risk Models (SI) at the [National Bank of Austria](https://oenb.at) (September 2020 - ongoing)
 
+- Analysis and validation of methods for assessing credit risk and quantifying default and loss estimates (PD/LGD/CCF)
+- Preparation of detailed assessment reports following inspection activities at supervised significant financial institutions
+- Acquisition of a profound knowledge of current regulatory standards (CRR, EBA GL on PD & LGD, RTS on AM, ECB Guide to IM)
+- Working on automation projects with an emphasis on risk differentiation and model calibration adequacy using R
+
+
+
 <br>
 
 
