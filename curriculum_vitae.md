@@ -87,14 +87,14 @@ View **Recommendation Letter from the CRO** [here](/pdf/SCHMIDT_Martin_Recommend
 ### > October 2020: Winner of the [Advancement Award](https://avoe.at/aus-und-weiterbildung/foerderungen/foerderpreis) (issued by the Actuary Association of Austria)
 Awarded for the diploma thesis on risk aggregation supervised by Dr. Uwe Schmock within the master studies at the Vienna University of Technology
 <br><br>
-** View certificate [here](/pdf/ECB_Coding_Challenge_Risk_Management_Martin_Schmidt.pdf).**
+**View certificate [here](/pdf/ECB_Coding_Challenge_Risk_Management_Martin_Schmidt.pdf).**
 
 ### > November 2019: Winner of the [ECB Coding Challenge on Risk Management](https://www.ecb.europa.eu/ecb/educational/youth-initiatives/html/coding-challenge.en.html) (hosted by the [European Central Bank](https://www.ecb.europa.eu/home/html/index.en.html))
 Part of a small international team (’EUreka!’) working on (dynamic) web-scraping of various news websites and unsupervised machine learning for Natural Language Processing (clustering of similar/related articles using Latent Dirichlet Allocation)
 <br><br>
 **View certificate [here](/pdf/ECB_Coding_Challenge_Risk_Management_Martin_Schmidt.pdf).**
 
-### > May 2019: Winner of the [2<sup>nd</sup> DSI Data Science Hackathon](https://www.univie.ac.at/dsi-students/events/) (hosted by [BAWAG Group AG](https://www.bawaggroup.com/BAWAGGROUP/group/EN))
+### > May 2019: Winner of the [2<sup>nd</sup> DSI Data Science Hackathon](https://www.bawaggroup.com/BAWAGGROUP/News/EN/recentnews/462482/hackathon-en.html) (hosted by [BAWAG Group AG](https://www.bawaggroup.com/BAWAGGROUP/group/EN))
 Prediction of age and place of residence of customers from transaction data (ATM withdrawals); visualization of insights (customer mobility, adequacy of location of branches)
 - 1st place in 'Data Insights'
 - 2nd place in 'Model Performance'
