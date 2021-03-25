@@ -106,6 +106,7 @@ Prediction of age and place of residence of customers from transaction data (ATM
 - 1st place in 'Data Insights'
 - 2nd place in 'Model Performance'
 
+**Example: Motion profile of customers based on ATM withdrawals**
 <img src="/images/bawag_hackathon_motion_profile.png" width="800" height="300">
 
 ---
