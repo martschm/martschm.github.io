@@ -106,6 +106,8 @@ Prediction of age and place of residence of customers from transaction data (ATM
 - 1st place in 'Data Insights'
 - 2nd place in 'Model Performance'
 
+<img src="img_girl.jpg" width="800" height="600">
+
 ---
 
 ## Professional Training
