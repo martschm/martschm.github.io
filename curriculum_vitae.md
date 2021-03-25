@@ -92,6 +92,8 @@ Awarded for the diploma thesis on risk aggregation supervised by Dr. Uwe Schmock
 ### > November 2019: Winner of the [ECB Coding Challenge on Risk Management](https://www.ecb.europa.eu/ecb/educational/youth-initiatives/html/coding-challenge.en.html) (hosted by the [European Central Bank](https://www.ecb.europa.eu/home/html/index.en.html))
 Part of a small international team (’EUreka!’) working on (dynamic) web-scraping of various news websites and unsupervised machine learning for Natural Language Processing (clustering of similar/related articles using Latent Dirichlet Allocation)
 <br><br>
+**Download the developed solution (video) [here](/videos/ECB_Coding_Challenge_ShowCase.mp4).
+<br>
 **View certificate [here](/pdf/ECB_Coding_Challenge_Risk_Management_Martin_Schmidt.pdf).**
 
 ### > May 2019: Winner of the [2<sup>nd</sup> DSI Data Science Hackathon](https://www.bawaggroup.com/BAWAGGROUP/News/EN/recentnews/462482/hackathon-en.html) (hosted by [BAWAG Group AG](https://www.bawaggroup.com/BAWAGGROUP/group/EN))
