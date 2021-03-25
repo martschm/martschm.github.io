@@ -34,23 +34,27 @@
 
 ### > Quantitative Credit Risk Manager at [ING in Austria](https://ing.at) (July 2016 - August 2020)
 
-- Supported the development of a retail credit acceptance model 
-in Python using machine learning and traditional statistical
-methods (XGBoost, Random Forest, Logistic Regression).
-Agile collaboration with colleagues from Advanced
-Analytics and Model Validation from the ING Head Office
-- Backtesting of external credit bureau models (CRIF, KSV)
-- Analysed fraudulent loan applications using network analysis
-in Python and implemented a SAS-tool to support operations
-in detection of future cases
-- Led the development of automated reporting from internal
-databases in the financial and non-financial risk area from
-scratch using SAS, SQL and VBA
-- Responsible for implementation of regulatory reporting requirements
-(e.g. New Definition of Default, IFRS 9) in SAS
-- Gained first leadership experience by guiding new colleagues through their onboarding process
-- Member of the local Credit Risk Committee presenting to
-the management board
+- Development of the first machine-learning (XGBoost) based retail credit decision 
+model for consumer lending in Python within a close agile collaboration with the 
+global Advanced Analytics team, development of a challenger model using traditional 
+statistical methods (Logistic Regression), support of the successful validation of the 
+machine-learning model
+- Monitoring of various retail credit decision and behavioral probability of default 
+models working together with the global Model Validation Team, backtesting of 
+external rating models (CRIF, KSV, Credify)
+- Responsibility for the implementation of regulatory requirements (International 
+Financial Reporting Standard 9 and risk provisioning, Forbearance, New Definition of 
+Default) in SAS
+- Lead for the development of an autonomous automated credit risk reporting solution 
+from internal databases (raw bank data) via SAS/SQL, visual basic for applications and 
+non-personal accounts
+- Extensive support of other departments (Collections, Compliance, Finance, Fraud, 
+Non-Financial Risk, Operations) with an emphasis on data analytics and automation
+- Member of the local COVID-19-Taskforce, responsible for internal and external 
+payment holiday reporting, simulations on risk weighted assets and risk costs and 
+forecasts of the potential impacted portfolio
+- Regular direct reporting to the local Management Board and the local Credit Risk 
+Committee regarding various corporate and retail credit risk topics
 
 View **Letter of Reference** [here](/pdf/SCHMIDT_Martin_Letter_of_Reference_ING.pdf).
 
@@ -63,7 +67,7 @@ View **Recommendation Letter from the CRO** [here](/pdf/SCHMIDT_Martin_Recommend
 ### > MSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (March 2016 - March 2019)
 
 - Graduation with highest distinction (**view certificate [here](/pdf/Studies_Certificate_Martin_Schmidt.pdf)**)
-- Diploma Thesis: [Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis) (nominated for the [AVÖ-price](http://avoe.at/wp-content/uploads/2014/09/AVOe_Foerderung_Abschlussarbeiten_2016.pdf) in 2020)
+- Diploma Thesis: [Aggregation of Integer-Valued Risks with Copula Induced Dependency Structure](/diploma_thesis) (awarded with the [AVÖ-price](http://avoe.at/wp-content/uploads/2014/09/AVOe_Foerderung_Abschlussarbeiten_2016.pdf) in 2020)
 
 
 ### > BSc Financial- and Actuarial Mathematics at [Vienna University of Technology](https://www.tuwien.at/) (October 2012 - March 2016)
@@ -109,7 +113,7 @@ The goal of this hackathon was to predict age and place of residence of customer
 - **Python** (advanced)
 - **VBA** (advanced)
 - **Git** (advanced)
-- **Julia** (basic)
+- **Java** (basic)
 - **C, C++** (basic)
 
 ---
